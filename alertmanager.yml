@@ -7,5 +7,5 @@ receivers:
   webhook_configs:
   - send_resolved: true
     url: 'http://203.162.121.72:8080'
-#templates:
-#  [/PrometheusConfig/alert_templates/default.tmpl]
+templates:
+  - 'alert_templates/default.tmpl'
